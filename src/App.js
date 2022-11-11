@@ -23,7 +23,6 @@ import AddUser from './pages/Admin/Users/AddUser';
 import EditUser from './pages/Admin/Users/EditUser';
 import EditProfile from './pages/Profile/EditProfile';
 
-
 // const CheckOutTemplate = lazy(() => import('./templates/CheckOutTemplate/CheckOutTemplate'))
 
 export const history = createBrowserHistory();

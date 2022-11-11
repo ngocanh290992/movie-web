@@ -13,6 +13,8 @@ export default function Profile(props) {
     dispatch(layThongTinNguoiDungAction())
   },[thongTinNguoiDung])
 
+  // test //
+  
   return (
     <div className='back_NNA'>
       <div className='profile_NNA border_glassmorphism2 flex flex-col'>

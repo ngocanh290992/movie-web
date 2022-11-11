@@ -1,0 +1,29 @@
+.slick-next:before,  .slick-prev:before{
+
+    font-size: 50px !important;
+    color: black !important;
+}
+
+.slick-prev{
+    left: 0 !important;
+    z-index: 10;
+}
+
+.slick-next{
+    right: 30px !important;
+   
+}
+
+.styleWidth {
+    /* width: 100% !important */
+}
+
+.active_Film {
+    @apply bg-gray-800 text-white;
+}
+
+
+.none_active_Film {
+    @apply bg-white text-gray-800;
+}
+

@@ -1,0 +1,108 @@
+.back_NNA {
+    width: 100%;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    padding: 50px 20px;
+    padding-top: 100px;
+    display: flex;
+    background-image: linear-gradient(-20deg, #ff2841 0%, #445dff 100%);
+}
+
+.profile_NNA{
+    width: 100%;
+    min-height: 460px;
+    margin: auto;
+    box-shadow: 0px 8px 60px -10px rgba(13,28,39,0.6);
+    background: rgb(231, 231, 231);
+    border-radius: 12px;
+    max-width: 700px;
+    position: relative;
+}
+
+.profile_NNA__img{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+    box-shadow: 0px 5px 50px 0px rgb(108, 68, 252), 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+}
+
+.profile_NNA__cnt{
+    margin-top: -35px;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
+
+.profile_NNA__name{
+    font-weight: 700;
+    font-size: 24px;
+    color: #6944ff;
+    margin-bottom: 15px;
+}
+.profile_NNA__txt {
+    font-size: 18px;
+    font-weight: 500;
+    color: #324e63;
+    margin-bottom: 15px;
+}
+
+.profile_NNA-loc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.profile_NNA-loc__icon{
+    display: inline-flex;
+    font-size: 27px;
+    margin-right: 10px;
+}
+.profile_NNA-loc__txt{
+    font-weight: 700;
+    color: #324e63;
+}
+
+.profile_NNA__button{
+    background: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    margin: 15px 35px;
+    padding: 15px 40px;
+    min-width: 201px;
+    border-radius: 50px;
+    min-height: 55px;
+    color: #fff;
+    cursor: pointer;
+    backface-visibility: hidden;
+    transition: all .3s;
+}
+
+.button_edit{
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+}
+
+.button_edit:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 7px 30px rgba(223, 45, 70, 0.75);
+}
+
+.button_update{
+    background: linear-gradient(45deg, #1debf2, #0e27c8);
+    box-shadow: 0px 4px 30px rgba(19, 127, 212, 0.4);
+}
+
+.button_update:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 7px 30px rgba(19, 127, 212, 0.75);
+}
